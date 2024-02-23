@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+
+.navbar{
+    height:90px;
+    background-color: #a44a3f;
+    color: #edd892;
+    display: flex;
+   
+}
+
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("surat-logo.jpg");
+    background-size: cover;
+    height:90px;
+}
+
+.cityname{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-ops{
+    width:45%;
+    background-color:#a44a3f;
+    color:#edd892;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15%;
+}
+a{
+    text-decoration: none;
+    color:rgb(228, 228, 154);
+}
+
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#description{
+    height:100%;
+    width:100%;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+}
+.heading{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #1b263b;
+}
+img{
+    height:300px;
+    width:500px;
+    border-radius: 5px;
+}
+
+.countain{
+    width:700px;
+    margin-left: 30px;
+    color:#415a77;
+    display:flex;
+    align-items: left;
+    justify-content: left;
+}
+
+#attractions{
+
+}
+
+.heading-visit-place{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #0d1b2a;
+    
+
+}
+
+.heading-attraction{
+    padding-left: 30px;
+    color:#1b263b;
+}
+
+ul li{
+    color: #415a77;
+}
+
+.photo-gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:#f2e9e4;
+    color:#22223b;
+    height:60px;
+}
+
+.heading-place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    color:#012a4a;
+    background-color: #a9d6e5;
+    border-radius: 5px;
+}
+
+
+#img-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f2e9e4;
+    
+}
+
+.box{
+    
+    background-color: white;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.box:hover{
+    background-color: #001d3d;
+    cursor: pointer;
+    
+}
+
+.box-img{
+    height: 300px;
+    width:300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.box-img:hover{
+    border: 2px solid #14213d;
+    border-radius: 10px;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    
+}
+
+/*City Statistics*/
+
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.heading-city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:#f2e9e4;
+    color:#22223b;
+    height:60px;
+}
+
+.tablestyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#073b4c;
+}
+
+.heading-quotes{
+    color:#6d2e46;
+    margin-left: 20px;
+}
+
+.quotes{
+    margin-top: 20px;
+    margin-left:40px;
+}
+
+
+/* address */
+
+
+.heading-contact{
+    color:#6d2e46;
+    margin-left: 20px;
+}
+
+address{
+    margin-top: 20px;
+    margin-left:40px;
+}
+
+.email{
+    margin-left: 40px;
+}
+
+/* footer_section */
+
+#footer_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height:100px;
+    color:#e9ecef;
+    background-color: #495057;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-logo {
+        margin-bottom: 20px;
+    }
+
+    .cityname {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .nav-ops {
+        flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .countain {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    #img-section {
+        justify-content: center;
+    }
+
+    .box {
+        width: 100%;
+        margin-left: 0;
+    }
+   
+}
+
